@@ -15,7 +15,30 @@
     <artifactId>Foyer</artifactId>
     <version>1.4.0</version>
     <name>Foyer</name>
-    <description>Foyer</description>
+    <description>Foyer Spring Boot Application</description>
+    <url>http://example.com/foyer</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>admin</id>
+            <name>Admin User</name>
+            <email>admin@example.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://example.com/foyer.git</connection>
+        <developerConnection>scm:git:ssh://example.com/foyer.git</developerConnection>
+        <url>https://example.com/foyer</url>
+    </scm>
 
     <properties>
         <java.version>17</java.version>
