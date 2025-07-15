@@ -13,7 +13,7 @@
 
     <groupId>tn.esprit.spring</groupId>
     <artifactId>Foyer</artifactId>
-    <version>1.4.0</version>
+    <version>1.4.1</version>
     <name>Foyer</name>
     <description>Foyer Spring Boot Application</description>
     <url>http://example.com/foyer</url>
