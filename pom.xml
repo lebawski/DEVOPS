@@ -129,6 +129,7 @@
                 </executions>
             </plugin>
         </plugins>
+        <finalName>Docker-integration</finalName>
     </build>
 
     <distributionManagement>
