@@ -7,7 +7,7 @@ export const options = {
 };
 
 export default function () {
-    const res = http.get('http://196.168.1.11:8086/Foyer/etudiant/findAll');
+    const res = http.get('http://192.168.1.11:8086/Foyer/etudiant/findAll');
 
     check(res, {
         'status is 200': (r) => r.status === 200,
