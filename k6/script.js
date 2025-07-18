@@ -7,11 +7,13 @@ export const options = {
 };
 
 export default function () {
-    const res = http.get('https://your-api-or-app-url.com/');
+    // Replace with your actual endpoint path
+    const res = http.get('http://localhost:8086/Foyer/etudiant');
 
     check(res, {
         'status is 200': (r) => r.status === 200,
+        'response time < 500ms': (r) => r.timings.duration < 500,
     });
 
-    sleep(1); // Pause for 1 second between iterations
+    sleep(1); // Pause for 1 second between requests
 }
